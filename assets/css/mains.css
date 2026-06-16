@@ -1771,8 +1771,7 @@ html {
 
             line-height: 2;
 
-            max-width: 70ch;
-
+            max-width: 100%;
         }
 
     /* ===== Resource Card ===== */
@@ -1901,6 +1900,14 @@ html {
 
         margin-top: -1px;
 
+    }
+
+    .footer-link {
+        color: #1c241f;
+    }
+
+    .footer-link:hover {
+        color: #556b4f; 
     }
 
 /* ===== FOOTER INNER ===== */
@@ -2134,6 +2141,10 @@ html {
         grid-template-columns: 1fr;
     }
 
+    .overview-text p {
+        max-width: 100%;
+    }
+
     .project-details {
         max-width: 500px;
     }
@@ -2211,6 +2222,10 @@ html {
     .footer-item {
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .overview-text p {
+        max-width: 100%;
     }
 }
 
@@ -2349,6 +2364,10 @@ html {
         line-height: 1.75;
     }
 
+    .overview-text p {
+        max-width: 100%;
+    }
+
     .media-gallery img {
         height: auto;
     }
@@ -2420,6 +2439,10 @@ html {
 
     .interest-tags {
         justify-content: center;
+    }
+
+    .overview-text p {
+        max-width: 100%;
     }
 }  
 
