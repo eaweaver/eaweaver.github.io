@@ -1,0 +1,93 @@
+<!-- 
+    Author: Erin Weaver
+    Create Date: 16 April 2021
+    Revised: 17 April 2021
+    
+    Description: This is the contact.html page for my portfolio of e-learning development work. It includes links to my website home page, reflection page, 
+    about page, and projects. 
+-->  
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contact</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+
+        <link rel="shortcut icon" type="image/jpg" href="Images/favicon_io/favicon.ico"/>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@600&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,700&display=swap');
+        </style> 
+
+    </head>
+
+    <body class="wrapper">
+        <div class="navbackground">
+            <div id="logo"><a href="index.html" target="blank">ERIN WEAVER</a></div>
+
+            <nav class="navbar">
+                <label for="hamburger" id="label">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+                <ul id="hamitems">
+                    <li class="navlink"><a href="index.html">Home</a></li>
+                    <li class="navlink"><a href="resume.html">Resume</a></li>
+                    <li class= "navlink"><a href="projects.html">Projects</a>
+                        <ul class="submenu">
+                            <li><a href="projects.html#comp1">Design & Development Projects</a></li>
+                            <li><a href="projects.html#comp2">System Assessment & Evaluation</a></li>
+                            <li><a href="projects.html#comp3">Community Programs</a></li>
+                        </ul>
+                    <li class="navlink"><a href="training.html">Training</a></li>
+                    <li class= "navlink"><a href="contact.html">Contact</a></li>   
+                </ul>
+            </nav>
+        </div>
+
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Contact</li>
+        </ul>
+
+        <header class="title">
+            <h1 id="contact">Contact</h1>
+        </header>
+
+        <form action="mailto:ebuchanan47@gmail.com?Subject=Porfolio_Website_Contact" method="post" enctype="text/plain">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname"  id="firstname" autofocus tabindex="1" placeholder="First" required>
+                <br> 
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" tabindex="2" placeholder="Last" required>
+                <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" tabindex="3" placeholder="example@gmail.com" required>
+                <br>
+                    <label>Message</label>
+                    <textarea id="message" name="message" tabindex="4" placeholder="Enter message here..."></textarea>
+                <br>
+                <button>Submit</button>
+        </form>
+
+        <main class="text">
+        </main>
+    
+        <footer class="baseline">
+            <p class="footer-content">
+                Erin Weaver
+                <a href="mailto:ebuchanan47@gmail.com?Subject=Portfolio_Website_Contact" target="_top"><img id="email-icon" src= "Images/email.png" alt=Email></a>
+                <a href="https://www.linkedin.com/in/erin-weaver-3143618a/" target="blank"><img id="linkedin" src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt=Linkedin/></a>
+                <a href="https://eaweaver.itch.io/" target="blank"><img id="itch" src= "Images/itch.png" alt=Itch.io></a>
+                <br>
+                Copyright &copy; 2021
+                <a id="icons8" href="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin">LinkedIn & Itch.io icons by Icons8</a>
+            </p>
+        </footer>
+    </body>
+ </html>
