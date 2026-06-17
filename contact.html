@@ -3,8 +3,8 @@
     Create Date: 16 April 2021
     Revised: 17 April 2021
     
-    Description: This is the projects.html page for my portfolio of e-learning development work. It includes links to my website home page, reflection page, 
-    about page, and contact form. 
+    Description: This is the contact.html page for my portfolio of e-learning development work. It includes links to my website home page, reflection page, 
+    about page, and projects. 
 -->  
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Projects</title>
+        <title>Contact</title>
 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
@@ -52,55 +52,32 @@
 
         <ul class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li>Projects</li>
+            <li>Contact</li>
         </ul>
 
         <header class="title">
-            <h1>Projects</h1>
+            <h1 id="contact">Contact</h1>
         </header>
 
+        <form action="mailto:ebuchanan47@gmail.com?Subject=Porfolio_Website_Contact" method="post" enctype="text/plain">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname"  id="firstname" autofocus tabindex="1" placeholder="First" required>
+                <br> 
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" tabindex="2" placeholder="Last" required>
+                <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" tabindex="3" placeholder="example@gmail.com" required>
+                <br>
+                    <label>Message</label>
+                    <textarea id="message" name="message" tabindex="4" placeholder="Enter message here..."></textarea>
+                <br>
+                <button>Submit</button>
+        </form>
+
         <main class="text">
-            
-            <section class="comp_border1">
-                <p id="comp_title">
-                    <strong>Design and Development of Learning Systems</strong>
-                </p>
-                
-                <div>
-                    <a href="games.html"><img class="project_pic" src="Images/games.png" alt="GAMES"/></a>
-                    
-                    <a href="courses.html"><img class="project_pic" src="Images/books.png" alt="COURSES"/></a>
-
-                    <a href="digitalmedia.html"><img class="project_pic" src="Images/media.png" alt="DIGITAL MEDIA"/></a> 
-                </div> 
-            </section>
-
-            <section id="comp2" class="comp_border">
-
-                <p id="comp_title">
-                    <strong>System Assessment & Evaluation</strong>
-                </p>
-
-                <div>
-                    <a href="system.html"><img class="project_pic3" src="Images/system.png" alt="SYSTEM ASSSESSMENT"/></a>
-                    
-                    <a href="evaluation.html"><img class="project_pic3" src="Images/evaluation.png" alt="EVALUATION & RESEARCH"/></a>
-                </div> 
-            </section>
-
-            <section id="comp3" class="comp_border">
-
-                <p id="comp_title">
-                    <strong>Community Programs</strong>
-                </p>
-
-                <div>
-                    <a href="city_lab.html"><img class="project_pic3" src="Images/citylab.png" alt="CITY LAB"/></a> 
-                    <a href="tools.html"><img class="project_pic3" src="Images/TechTools.png" alt="Technology Tools"></a>
-                </div>  
-            </section>
         </main>
-
+    
         <footer class="baseline">
             <p class="footer-content">
                 Erin Weaver
@@ -113,4 +90,4 @@
             </p>
         </footer>
     </body>
-</html>
+ </html>
